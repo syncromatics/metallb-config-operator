@@ -1,0 +1,7 @@
+domain: metallb.com
+repo: github.com/syncromatics/metallb-config-operator
+resources:
+- group: app
+  kind: AddressPool
+  version: v1
+version: "2"
